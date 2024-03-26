@@ -1,0 +1,138 @@
+.container {
+    display: flex;
+    justify-content: center;
+    min-width: 1440px;
+    max-height: 1024px;
+    padding-top: 28px;
+}
+
+.container__watching {
+    max-width: 952px;
+    margin-right: 25px;
+}
+
+.container__watching .video img {
+    max-width: 952px;
+    width: auto;
+}
+
+.container__watching .title {
+    padding: 16px 0;
+    font-size: 1.25rem;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0em;
+}
+
+.container__watching .video-actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 902px;
+    height: 42px;
+}
+
+.video-actions .channel {
+    display: flex;
+    align-items: center;
+}
+
+.video-actions .channel {
+    margin-right: 12px;
+}
+
+.video-actions .channel .image {
+    margin-right: 12px;
+}
+
+.video-actions .channel .dio {
+    display: flex;
+    flex-direction: column;
+}
+
+.video-actions .channel img {
+    width: 42px;
+    height: 42px;
+}
+
+.video-actions .subscribe button {
+    width: 159px;
+    height: 40px;
+    background-color: #CC0000;
+    border-radius: 2px;
+    border: none;
+    color: #FFF;
+    font-size: 0.875rem;
+    font-weight: 600;
+    line-height: 16.41px;
+}
+
+.video-actions .interaction {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.container__watching .info {
+    padding: 16px 0;
+    gap: 10;
+}
+
+.container__watching .info .views {
+    margin-right: 5px;
+}
+
+.container__watching .description {
+    width: 510px;
+}
+
+.container__sidebar {
+    display: flex;
+    flex-direction: column;
+    width: 372px;
+
+}
+
+.container__sidebar .recomendation {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 16px;
+}
+
+.recomendation__thumb img {
+    width: 160px;
+    height: 90px;
+}
+
+.recomendation__info {
+    width: 196px;
+    height: 90px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.recomendation__info .channel {
+    margin: 8px 0 7px 0;
+}
+
+.gray-light {
+    font-size: 0.875rem;
+    font-weight: 400;
+    line-height: 16.41px;
+    color: #515151;
+}
+
+.gray-light-sm {
+    font-size: 0.75rem;
+    font-weight: 400;
+    line-height: 14.06px;
+    color: #515151;
+}
+
+.black-bold {
+    font-size: 0.875rem;
+    font-weight: 600;
+    line-height: 16.41px;
+    color: #000;
+}

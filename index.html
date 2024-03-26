@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Youtube clone</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet" />
+
+  <link rel="stylesheet" href="./assets/styles/global.css" />
+  <link rel="stylesheet" href="./assets/styles/header.css">
+  <link rel="stylesheet" href="./assets/styles/container.css">
+
+</head>
+
+<body>
+  <header>
+    <nav class="header">
+      <div class="header__left">
+        <div class="menu-icon icon">
+          <img src="./assets/images/nav/menu.png" alt="">
+        </div>
+        <div class="logo">
+          <a href="https://www.youtube.com/" target="_blank">
+            <img src="./assets/images/nav/logo-youtube.png" alt="Logo do Youtube" />
+          </a>
+        </div>
+      </div>
+      <div class="header__center">
+        <div class="search-input">
+          <input type="text" id="search-input" />
+        </div>
+        <div class="search-icon icon">
+          <img src="./assets/images/nav/search.png" alt="">
+        </div>
+      </div>
+      <div class="header__right">
+        <div class="create-icon icon">
+          <img src="./assets/images/nav/create.png" alt="">
+        </div>
+        <div class="notification-icon icon">
+          <img src="./assets/images/nav/bell.png" alt="">
+        </div>
+        <div class="user">
+          <img src="./assets/images/nav/avatar.png" alt="">
+        </div>
+        </divclass>
+    </nav>
+  </header>
+  <div class="container">
+    <main class="container__watching">
+      <div class="video">
+        <iframe width="952" height="537" src="https://www.youtube.com/embed/FRdES4ZmxXI?si=eL9lalVNxSmE1iOO"
+          title="YouTube video player" frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      </div>
+      <div class="title">
+        Criando um carrossel Parallax do Aranhaverso com React, Next e Typescript
+      </div>
+      <nav class="video-actions">
+        <div class="channel">
+          <div class="image">
+            <img src="./assets/images/video-actions/dio.png" alt="Logo do canal da DIO">
+          </div>
+          <div class="dio">
+            <span class="black-bold">DIO</span>
+            <span class="gray-light">83,3 mil inscritos</span>
+          </div>
+        </div>
+        <div class="subscribe">
+          <button>INSCREVA-SE</button>
+        </div>
+        <div class="interaction icon">
+          <img src="./assets/images/video-actions/like.png" alt="Botão gostei">
+          <span class="black-bold">2 mil</span>
+        </div>
+        <div class="interaction icon">
+          <img src="./assets/images/video-actions/dislike.png" alt="Botão não gostei">
+          <span class="black-bold">Não gostei</span>
+        </div>
+        <div class="interaction icon">
+          <img src="./assets/images/video-actions/share.png" alt="Botão compartilhar">
+          <span class="black-bold">Compartilhar</span>
+        </div>
+        <div class="interaction icon">
+          <img src="./assets/images/video-actions/download.png" alt="Botão doownload">
+          <span class="black-bold">Download</span>
+        </div>
+      </nav>
+      <div class="info">
+        <span class="views black-bold">1.488 visualizações</span>
+        <span class="release black-bold">28 de jun. de 2023</span>
+      </div>
+      <div class="description gray-light">
+        Explore o incrível mundo da tecnologia criando um carrossel Parallax inspirado no Aranhaverso usando React, Next
+        e Typescript.
+        Aprenda com muita mão na massa e domine essa técnica avançada de desenvolvimento. Seja um expert em React e Next
+        e deixe suas aplicações web ainda mais dinâmicas e envolventes.
+      </div>
+    </main>
+    <aside class="container__sidebar">
+      <section class="recomendation">
+        <div class="recomendation__thumb">
+          <img src="./assets/images/sidebar/thumb-01.png" alt="" />
+        </div>
+        <div class="recomendation__info">
+          <span class="black-bold">Geração Tech Unimed - BH - Ciência de Dados</span>
+          <span class="channel gray-light-sm">DigitalInnovationOne</span>
+          <span class="gray-light-sm">2,1 mil visualizações</span>
+          <span class="gray-light-sm">Transmitido há 2 dias</span>
+        </div>
+      </section>
+      <section class="recomendation">
+        <div class="recomendation__thumb">
+          <img src="./assets/images/sidebar/thumb-02.png" alt="" />
+        </div>
+        <div class="recomendation__info">
+          <span class="black-bold">Scrum Talks</span>
+          <span class="channel gray-light-sm">DigitalInnovationOne</span>
+          <span class="gray-light-sm">1,6 mil visualizações</span>
+          <span class="gray-light-sm">Transmitido há 3 dias</span>
+        </div>
+      </section>
+      <section class="recomendation">
+        <div class="recomendation__thumb">
+          <img src="./assets/images/sidebar/thumb-03.png" alt="" />
+        </div>
+        <div class="recomendation__info">
+          <span class="black-bold">Machine Learning Avançado - Fast Track</span>
+          <span class="channel gray-light-sm">DigitalInnovationOne</span>
+          <span class="gray-light-sm">1,7 mil visualizações</span>
+          <span class="gray-light-sm">Transmitido há 4 dias</span>
+        </div>
+      </section>
+      <section class="recomendation">
+        <div class="recomendation__thumb">
+          <img src="./assets/images/sidebar/thumb-04.png" alt="" />
+        </div>
+        <div class="recomendation__info">
+          <span class="black-bold">Global Skills #2 - Project Planning</span>
+          <span class="channel gray-light-sm">DigitalInnovationOne</span>
+          <span class="gray-light-sm">971 mil visualizações</span>
+          <span class="gray-light-sm">Transmitido há 5 dias</span>
+        </div>
+      </section>
+      <section class="recomendation">
+        <div class="recomendation__thumb">
+          <img src="./assets/images/sidebar/thumb-05.png" alt="" />
+        </div>
+        <div class="recomendation__info">
+          <span class="black-bold">Como aprender a programar Python do ZERO</span>
+          <span class="channel gray-light-sm">DigitalInnovationOne</span>
+          <span class="gray-light-sm">711 mil visualizações</span>
+          <span class="gray-light-sm">Transmitido há 6 dias</span>
+        </div>
+      </section>
+      <section class="recomendation">
+        <div class="recomendation__thumb">
+          <img src="./assets/images/sidebar/thumb-01.png" alt="" />
+        </div>
+        <div class="recomendation__info">
+          <span class="black-bold">Geração Tech Unimed - BH - Ciência de Dados</span>
+          <span class="channel gray-light-sm">DigitalInnovationOne</span>
+          <span class="gray-light-sm">2,1 mil visualizações</span>
+          <span class="gray-light-sm">Transmitido há 2 dias</span>
+        </div>
+      </section>
+      <section class="recomendation">
+        <div class="recomendation__thumb">
+          <img src="./assets/images/sidebar/thumb-02.png" alt="" />
+        </div>
+        <div class="recomendation__info">
+          <span class="black-bold">Scrum Talks</span>
+          <span class="channel gray-light-sm">DigitalInnovationOne</span>
+          <span class="gray-light-sm">1,6 mil visualizações</span>
+          <span class="gray-light-sm">Transmitido há 3 dias</span>
+        </div>
+      </section>
+      <section class="recomendation">
+        <div class="recomendation__thumb">
+          <img src="./assets/images/sidebar/thumb-03.png" alt="" />
+        </div>
+        <div class="recomendation__info">
+          <span class="black-bold">Machine Learning Avançado - Fast Track</span>
+          <span class="channel gray-light-sm">DigitalInnovationOne</span>
+          <span class="gray-light-sm">1,7 mil visualizações</span>
+          <span class="gray-light-sm">Transmitido há 4 dias</span>
+        </div>
+      </section>
+      <section class="recomendation">
+        <div class="recomendation__thumb">
+          <img src="./assets/images/sidebar/thumb-04.png" alt="" />
+        </div>
+        <div class="recomendation__info">
+          <span class="black-bold">Global Skills #2 - Project Planning</span>
+          <span class="channel gray-light-sm">DigitalInnovationOne</span>
+          <span class="gray-light-sm">971 mil visualizações</span>
+          <span class="gray-light-sm">Transmitido há 5 dias</span>
+        </div>
+      </section>
+    </aside>
+  </div>
+</body>
+
+</html>
